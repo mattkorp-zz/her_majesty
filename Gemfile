@@ -46,6 +46,7 @@ group :development, :test do
   gem "selenium-webdriver"
   gem "jasmine"
   gem "pry-rails"
+  gem "pry-nav"
 end
 
 group :development do
