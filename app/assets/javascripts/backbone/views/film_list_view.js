@@ -1,4 +1,4 @@
-var app = app | {};
+var app = app || {};
 
 var FilmListView = Backbone.View.extend({
   el: '.page',

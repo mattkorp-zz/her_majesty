@@ -7,9 +7,9 @@ $(function () {
   app.router.on('route:home', function (){
     app.filmListView.render();
   });
-  app.router.on('route:edit', function (id){
-    app.filmEditView.render({id: id});
-  });
+  // app.router.on('route:edit', function (id){
+  //   app.filmEditView.render({id: id});
+  // });
 
   Backbone.history.start();
 

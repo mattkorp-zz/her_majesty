@@ -18,6 +18,7 @@ var Films = Backbone.Collection.extend({
   },
   totalGross: function (){
     var gross = _.map(bonds.films, function(film){ return bonds.gross(film)});
+    //var gross = this.map(function(film){ return film.get("gross")});
     return _.reduce(gross, function(memo, num){ return memo + num; }, 0);
   },
   titles: function (num_words_obj){
