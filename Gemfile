@@ -39,24 +39,23 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem "rspec-rails"
-  gem "guard-rspec"
+  # gem "guard-rspec"
   gem "capybara"
-  gem "database_cleaner"
-  gem "capybara-webkit"
+  # gem "database_cleaner"
+  # gem "capybara-webkit"
   gem "selenium-webdriver"
   gem "jasmine"
   gem "pry-rails"
-  gem "awesome_print"
 end
 
 group :development do
-  gem "annotate"
-  gem "quiet_assets"
-  gem "binding_of_caller"
-  gem "meta_request"
+  # gem "annotate"
+  # gem "quiet_assets"
+  # gem "binding_of_caller"
+  # gem "meta_request"
   gem "rails-erd"
-  gem "better_errors"
-  gem "terminal-notifier-guard"
+  # gem "better_errors"
+  # gem "terminal-notifier-guard"
 end
 
 gem "simplecov", :require => false, :group => :test
