@@ -8,9 +8,6 @@ bond_data = BondData.new
 bonds = Bond.new
 
 bond_data.bonds.each do |bond_film|
-binding.pry
   bonds.gross << bonds.gross(bond_film)
-binding.pry
 end
-binding.pry
 

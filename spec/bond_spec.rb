@@ -10,7 +10,6 @@ describe "bond ruby version" do
 
   describe ".gross(film)" do
     it "extract the gross from a film" do
-      binding.pry
       #expect(@bond.gross(film)).to eq()
     end
 
